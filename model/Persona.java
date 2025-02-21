@@ -6,7 +6,7 @@ public class Persona {
     private String dni;
     private String nombre;
     private String apellido;
-    private Integer  edad;
+    private Integer edad;
 
     public Integer getId() {
         return id;
@@ -48,7 +48,12 @@ public class Persona {
         this.edad = edad;
     }
 
-
-
-
+    public boolean registrarAsistencia(
+            String codIdentificador,
+            String fechaAsistencia,
+            String horaAsistencia,
+            Boolean valorAsistencia
+    ){
+        return true;
+    }
 }
